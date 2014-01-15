@@ -2,6 +2,8 @@
 
 This repository contains some very basic VBA (the first I've written in probably 15 years :P) to forward notifications from Outlook to Notify My Android for those who don't want to sign up to the potentially onerous permissions of the official Outlook client for Android.
 
+Please note: this will only work while Outlook is running - if you need 24x7 notifications you will need to do something similar server side.
+
 ## Code
 
 ### Module1
@@ -22,3 +24,7 @@ The relevant code needs to be put into the relevant modules in Outlook Visual Ba
 + INSERT YOUR APP NAME HERE
 
 This is a bit ugly but my VBA knowledge does not extend to parameterising these.
+
+## Known issues
+
++ Only tested on Outlook 2010
