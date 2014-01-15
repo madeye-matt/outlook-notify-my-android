@@ -18,7 +18,7 @@ This repository contains some very basic VBA (the first I've written in probably
 
 The relevant code needs to be put into the relevant modules in Outlook Visual Basic (Developer -> Visual Basic in Outlook 2010).  The project needs to reference WinHttp.  The Notify My Android apikey and app name need to be set in the code.  Look for the following:
 
-+ <INSERT YOU NOTIFY MY ANDROID APIKEY HERE>
-+ <INSERT YOUR APP NAME HERE>
++ INSERT YOU NOTIFY MY ANDROID APIKEY HERE
++ INSERT YOUR APP NAME HERE
 
 This is a bit ugly but my VBA knowledge does not extend to parameterising these.
