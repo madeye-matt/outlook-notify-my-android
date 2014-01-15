@@ -25,6 +25,8 @@ The relevant code needs to be put into the relevant modules in Outlook Visual Ba
 
 This is a bit ugly but my VBA knowledge does not extend to parameterising these.
 
+Once the code has been installed and edited, you need to create a rule in Outlook to trigger when mails are received (as per normal).  Then select the "script" option in the actions section and you should be offered the option to execute Module1.NotifyMyAndroidMessageRule. Select it.
+
 ## Known issues
 
 + Only tested on Outlook 2010
